@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<estudiantes>
+<estudiante id="01">
+<nombre>Carlos Bouzas</nombre>
+<direccion>Fernandez LLamazares</direccion>
+<temas>
+<tema>BBDD</tema>
+<tema>Lenguaje de marcas</tema>
+<tema>Programación</tema>
+</temas>
+</estudiante>
+<estudiante id="02">
+<nombre>Alex Collado</nombre>
+<direccion>Gran Via de Hortaleza</direccion>
+<temas>
+<tema>FOL</tema>
+<tema>Entornos de desarrollo</tema>
+<tema>Programación</tema>
+</temas>
+</estudiante>
+<estudiante id="03">
+<nombre>Alvaro Rosco</nombre>
+<direccion>Mota del cuervo</direccion>
+<temas>
+<tema>Sistemas informaticos</tema>
+<tema>Lenguaje de marcas</tema>
+<tema>Programación</tema>
+</temas>
+</estudiante>
+</estudiantes>

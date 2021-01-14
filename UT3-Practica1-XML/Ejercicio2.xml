@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<a1:ejercicio2 xmlns:a1="URI">
+<!-- Todo los documentos XML deben tener un unico elemento padre o raiz del que descienda todos los demas,
+en este caso el elemento padre que deberia englobar a todos los demas creo que deberia ser list, pero este cierra en la primera fila
+en vez de en la ultima. Otro error que encuentro en la primera fila es que la etiqueta item de esta fila no tiene cierre. -->
+<a1:list><a1:title>The first list</a1:title><a1:item>An item</a1:list>
+<a1:item>An item</a1:item><a1:item>Another item</a1:item>
+<a1:para>Bathing a cat is a <a1:emph>relatively</a1:emph> easy task as long as
+the cat is willing.</a1:para>
+<!-- En las dos ultimas lineas el error que encuentro es que la etiqueta author se abre dentro de
+tittle pero no se cierra dentro de esta misma y que la etiqueta author no tiene la sintaxis de cierra bien (le falta / para cerrarse,
+esto es un error de sintaxis. La solucion podria ser desplazar la etiqueta de apertura author a la derecha de la etiqueta de cierra
+ title y cerrar bien la etiqueta author o bien colocar a la derecha de la etiqueta de cierre de author (una vez bien cerrada esta)
+ la etiqueta de cierra title. Aunque creo que sintacticamente estaria bien optaria por la primera opcióm (cerrar bien author y 
+ mover la etiqueta de apertura de autor a la derecha de la etiqueta de cierre title) por que tiene mas logica que author y tittle sean
+ elementos destintos dentro de bible a que author este dentro de title. -->
+<a1:bibl><a1:title>How to Bathe a Cat<a1:author></a1:title>Merlin
+Bauer<a1:author></a1:bibl>
+<!-- En el documento Ejercicio2-1 esta un modelo que creo correcto con los errores detectados en este ejercicio. -->

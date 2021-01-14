@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- El primer erros que encuentro es que no existe una etiqueta raiz que lo englobe todo, como 
+es una receta de lo que estamos hablando una etiqueta raiz con el nombre recipe pienso que seria correcto-->
+<name>Oyster Soup</name>
+<!-- Los atributos deben ir entre comillas simples ('') o comillas compuestas (""), El atributo holder esta mal escrito. -->
+<copyright holder=Eric Lease Morgan>&Copy; 2003</copyright>
+<ingredients>
+<list>
+<!-- Ninguna de las etiquetas item está bien escrita, faltan las etiquetas de cierre. -->
+<item>1 stalk of celery
+<item>1 onion
+<item>2 tablespoons of butter
+<item>2 cups of oysters and their liquor
+<item>2 cups of half & half <!-- El caracter ampersand se usa para referenciar entidades para representar ese caracter debemos escribirlo &amp;  -->
+</list>
+</ingredients>
+<process>
+<P>Begin by sauteing the celery and onions in butter until soft.
+Add oysters, oyster liquor, and cream. Heat until the oysters float.
+Serve in warn bowls.</p> <!-- XML distingue entre mayusculas y minusculas, la p de cierra deberia ser mayuscula (P) para estar bioen escrita -->
+<p><i>Yummy!</p></i><!-- puede abrir dentro de p y cerrarse fuera, deberia o bien abrirse y cerrarse fuera o abrirse y cerrarse dentro, creo que lo corecto seria que p englobe a  i -->
+</process>
+<!-- En el documento Ejercicio4-1 esta un modelo que creo correcto con los errores detectados en este ejercicio. -->

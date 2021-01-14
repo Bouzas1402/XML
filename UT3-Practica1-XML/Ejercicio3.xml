@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PROCEDURE>
+<!-- TITLE está mal avierto falta el > para formar bien la etiqueta de apertura de la instancia -->
+<TITLEHow to Bathe a Cat</TITLE>
+<OVERVIEW>This procedure
+tells you how to bathe a cat. <WARNING>
+<!-- WARGNING abre dentro de OVERVIEW pero cierra fuera, esto es un error de sintaxis y creo que lo correcto
+seria que estuviera fuera de la etiqueta OVERVIEW -->
+</OVERVIEW>
+Cats don't like to
+take baths. You could get hurt doing this. Be sure to obtain all the required protective gear before you start.
+</WARNING>
+<EQUIPEMENT>
+<!-- Esta primera etiqueta ITEM no esta cerrada y deberia cerrar despues de Mask -->
+<ITEM>Hockey Mask 
+<ITEM>Padded Full-body Kevlar Armor</ITEM>
+<ITEM>Tub full of warm water</ITEM>
+<ITEM>Towels</ITEM>
+<ITEM>First Aid kit</ITEM>
+<ITEM>Cat Shampoo</ITEM>
+<!-- EQUIPMENT esta mal cerrado y no concuerda con su etiqueta de apertura ya que le falta una E, falta / en EQUIPEMENT-->
+<EQUIPMENT>
+<INSTRUCTIONS>
+<STEP> Locate the cat, who by now is hiding under the bed.</STEP>
+<STEP>Place the cat in the tub of water.</STEP>
+<!-- Aqui se abre un elemento ITEM pero cierra con STEP, la etiqueta de cierre y apertura deben coincidir.
+Tendriamos que cambiar una de las dos para que concuerden. -->
+<ITEM>Using the First Aid kit, repair the damage to your head and arms.</STEP>
+<STEP>Place the cat back in the tub and hold it down.</STEP>
+<STEP>Wash it really fast, then make an effort to dry it with the towels.</STEP>
+<STEP>Decide not to do this again.</STEP>
+</INSTRUCTIONS>
+<!-- Aqui falta el cierre del elemento raiz que engloba a todo el documento PROCEDURE-->
+<!-- En el documento Ejercicio3-1 damos una posible solucion que consideramos correcta para que el documento XML este bien formado -->

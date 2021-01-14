@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Modelo que consideramos que estaria bien formado con los errores detectados en el ejercicio 2. -->
+<list>
+<title>The first list</title>
+<item>An item</item>
+<item>An item</item>
+<item>Another item</item>
+<para>Bathing a cat is a<emph>relatively</emph> easy task as long as
+the cat is willing.</para>
+<bibl><title>How to Bathe a Cat</title><author>Merlin
+Bauer</author></bibl>
+</list>
