@@ -432,7 +432,7 @@ XQuery Kick Start
 
 **Solución:**
 ```
-//child::libro[starts-with(name(),'p')]
+//libro/*[starts-with(name(),'p')]
 ```
 **Resultado:**
 ```xml
@@ -446,7 +446,7 @@ XQuery Kick Start
     
 **Solución:**
 ```
-
+//libro/*[contains(name(), 'io')]
 ```
 **Resultado:**
 ```xml
@@ -470,7 +470,7 @@ XQuery Kick Start
 
 **Solución:**
 ```
-
+//*/@*[contains(name(), 'io')]
 ```
 **Resultado:**
 ```xml
